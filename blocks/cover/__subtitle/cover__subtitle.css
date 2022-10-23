@@ -1,0 +1,33 @@
+.cover__subtitle {
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 3;
+    align-self: end;
+    margin: 0 auto 20%; /* резиновый отступ 245 / (1184/100) */
+    max-width: 360px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__subtitle {
+        margin: 0 auto 15%; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__subtitle {
+        font-size: 1.8vw;
+        line-height: 2.15vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__subtitle {
+        font-size: 2.35vw;
+        line-height: 2.9vw;
+    }
+}

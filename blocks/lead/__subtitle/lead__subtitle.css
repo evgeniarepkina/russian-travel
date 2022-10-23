@@ -1,0 +1,44 @@
+.lead__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    margin: 0 auto 4rem;
+    max-width: 640px;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__subtitle{
+        margin-bottom: 3.5rem;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .lead__subtitle {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 4vw; /*делаем гибкий текст, чтоб весь текст был виден на странице*/
+        line-height: 4.7vw;
+        margin-bottom: 7vw;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .lead__subtitle {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: 2.5rem;
+    }
+}
+
+@media screen and (max-width: px) {
+    .lead__subtitle {
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-bottom: 2.5rem;
+    }
+}

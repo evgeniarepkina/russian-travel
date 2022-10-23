@@ -50,7 +50,7 @@
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu-links/footer__menu-links.css);
-@import url(../blocks/footer/__menu-link/footer__menu-item.css);
+@import url(../blocks/footer/__menu-ltem/footer__menu-item.css);
 @import url(../blocks/footer/__menu-link/footer__menu-link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 

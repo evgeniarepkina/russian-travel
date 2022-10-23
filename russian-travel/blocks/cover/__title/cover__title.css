@@ -1,0 +1,44 @@
+.cover__title {
+    max-width: 560px;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    margin: 20% auto 32px;  /* резиновый отступ 245 / (1184/100) */
+}
+
+ @media screen and (max-width: 1279px) {
+    .cover__title {
+        margin: 195px auto 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__title {
+        margin: 115px auto 32px;
+        font-size: 7vw;
+        line-height:7.4vw; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        margin: 33px auto 32px;
+        font-size: 9.4vw;
+        line-height: 9.9vw; 
+    }
+} 
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+

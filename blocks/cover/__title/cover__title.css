@@ -3,7 +3,6 @@
     grid-column: 1;
     grid-row: 1;
     z-index: 3;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -30,7 +29,7 @@
     .cover__title {
         margin: 33px auto 32px;
         font-size: 9.4vw;
-        line-height: 9.9vw; 
+        line-height: 9.9vw;
     }
 } 
 

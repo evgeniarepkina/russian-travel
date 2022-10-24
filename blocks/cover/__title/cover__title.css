@@ -8,18 +8,18 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    margin: 20% auto 32px;  /* резиновый отступ 245 / (1184/100) */
+    margin: 0;
 }
 
  @media screen and (max-width: 1279px) {
     .cover__title {
-        margin: 195px auto 32px;
+        /* margin: 195px auto 32px; */
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__title {
-        margin: 115px auto 32px;
+        /* margin: 115px auto 32px; */
         font-size: 7vw;
         line-height:7.4vw; 
     }
@@ -27,7 +27,7 @@
 
 @media screen and (max-width: 767px) {
     .cover__title {
-        margin: 33px auto 32px;
+        /* margin: 33px auto 32px; */
         font-size: 9.4vw;
         line-height: 9.9vw;
     }

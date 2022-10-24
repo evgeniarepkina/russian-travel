@@ -1,0 +1,16 @@
+.cover__overlay-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__overlay-content {
+        max-width: 1184px;
+        min-height: auto;
+    }
+}

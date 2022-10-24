@@ -1,0 +1,14 @@
+.footer__menu-link {
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+
+.footer__menu-link:last-child {
+    margin: 0 0 32px 0;
+}
+
+.footer__menu-link:hover {
+    transition: opacity .2s ease;
+    opacity: 0.8;
+    cursor:pointer;
+}

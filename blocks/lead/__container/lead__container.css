@@ -1,6 +1,5 @@
 .lead__container {
-    display: grid;
-    grid-auto-rows: repeat(2, 1fr);
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1279px) {

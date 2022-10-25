@@ -8,7 +8,7 @@
     margin-left: 16px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .header__lang-links {
         margin-top: 30px;
     }

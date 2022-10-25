@@ -16,7 +16,7 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        max-width: 728px; /* 720/(768/100)*/
+        max-width: 928px; 
         margin-bottom: 88px;
     }
 }
@@ -24,13 +24,14 @@
 @media screen and (max-width: 768px) {
     .intro {
         max-width: 93.75%; /* 720/(768/100)*/
-        margin-bottom: 88px;
+        margin-bottom: 64px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .intro {
-        margin-bottom: 64px;
+        max-width: 90%;
+
     }
 }
 

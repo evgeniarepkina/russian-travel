@@ -1,26 +1,22 @@
 .places {
     margin: 0 auto;
-    max-width: 984px; /* максимальная ширина - отсупы */
-    /* padding: 0 48px 0 48px; */
+    max-width: 984px; 
     display: flex;
     flex-direction: column;
   }
-  
-  @media screen and (max-width: 1279px) {
-      .places {
-          max-width: 928px;
-      }
-  }
-  
+   
   @media screen and (max-width: 1023px) {
       .places {
-          max-width: 728;
+          width: calc(100% - 24px * 2);
       }
   }
-  
+
   @media screen and (max-width: 767px) {
-      .places {
-          max-width: 728px;
-      }
-  }
-  
+    .places {
+        max-width: 100%;
+        width:320px;
+        margin: 0;
+        align-items: center;
+    }
+}
+

@@ -6,6 +6,10 @@
     gap: 48px 40px;
 }
 
+.place:nth-child(1) {
+    margin-top: 0;
+}
+
 .place:last-child {
     margin-bottom: 92px;
 }
@@ -34,4 +38,10 @@
         margin: 0 0 50px 0;
     }
     
+}
+
+@media screen and (max-width: 676px) {
+    .place:last-child  {
+        margin-bottom: 66px;
+    }
 }

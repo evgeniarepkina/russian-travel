@@ -2,16 +2,9 @@
     display: flex;
     flex-direction: row;
     margin: 92px auto 24px;
-    max-width: 1184px; /* максимальная ширина - отсупы */
+    width: calc(100% - 48px *2);/* максимальная ширина - отсупы */
     justify-content: space-between;
 }
-
-@media screen and (max-width: 1279px) {
-    .footer {
-        width: calc(100% - 48px *2);
-    }
-}
-
 
 @media screen and (max-width: 1023px) {
     .footer{
@@ -22,7 +15,6 @@
 
 @media screen and (max-width: 767px) {
     .footer{
-        width: calc(100% - 24px *2);
         flex-direction: column;
         align-items: flex-start;
         margin: 64px 0 24px 16px;

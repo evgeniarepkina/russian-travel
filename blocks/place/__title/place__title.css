@@ -11,8 +11,6 @@
 
 @media screen and (max-width: 1023px) {
     .place__title {
-        font-style: normal;
-        font-weight: 900;
         font-size: 42px;
         line-height: 46px;
     }
@@ -20,12 +18,8 @@
 
 @media screen and (max-width: 767px) {
     .place__title {
-        font-style: normal;
-        font-weight: 900;
         font-size: 32px;
         line-height: 35px;
-        grid-column: 1;
-        grid-row: 1;
         margin-left: 16px;
     }
 }

@@ -14,14 +14,12 @@
     }
 }
 
-
 @media screen and (max-width: 1023px) {
     .lead__subtitle {
         font-size: 4vw; /*делаем гибкий текст, чтоб весь текст был виден на странице*/
         line-height: 4.7vw;
     }
 }
-
 
 @media screen and (max-width: 767px) {
     .lead__subtitle {
